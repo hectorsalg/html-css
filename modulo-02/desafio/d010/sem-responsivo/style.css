@@ -1,0 +1,137 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+    margin: 0px;
+}
+
+p{
+    color: black;
+    text-align: justify;
+}
+nav> a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px;
+    text-shadow: 1px 1px 1px black;
+}
+
+nav > a:hover{
+    color: #00692F;
+    background-color: #249A60;
+    border-radius: 5px;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+div{
+    margin: 10px -10px;
+    background-color: #1A5C38;
+}
+
+div > iframe{
+    display: block;
+    padding: 10px;
+    margin: auto;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #53E092, #1A5B37);
+    box-shadow: 1px 1px 5px;
+    padding: 10px;
+}
+
+header > h1{
+    color: white;
+    font-weight: bold;
+    font-stretch: ultra-condensed;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px;
+    padding-top: 25px;
+    text-shadow: 1px 1px 1px black;
+}
+
+header > p{
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    font-size: larger;
+    text-shadow: 1px 1px 1px black;
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 0px 100px 20px;
+    box-shadow: 0px 3px 8px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+main > h1{
+    font-family: 'android';
+    color: #24633F;
+}
+
+main > h2{
+    font-family: 'android';
+    color: #24633F;
+    background-image: linear-gradient(to right, #C6ECD6, white);
+}
+
+main > p{
+    line-height: 200%;
+    color: black;
+    text-align: justify;
+}
+
+p > a{
+    border: 4px solid #85E3B4;
+    font-weight: bold;
+    color: #004D1F;
+    background-color: #85E3B4;
+    text-decoration: none;
+}
+
+footer{
+    padding: 10px;
+    background-color: #1A5C38;
+    margin-bottom: 0px;
+    box-shadow: -1px 0px 10px;
+}
+footer > p{
+    color: white;
+    margin: 0px;
+    text-align: center;
+}
+
+.extra{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 5px;
+    margin: 10px 0px 0px 0px;
+    color: white;
+    background-image: none;
+    background-color: #175c34;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.fundo{
+    margin: 0px;
+    background-color: #81E2AB;
+}
+
+.fundo2{
+    margin: 0px;
+    background-color: #81E2AB;
+    border-radius: 0px 0px 10px 10px;
+}
